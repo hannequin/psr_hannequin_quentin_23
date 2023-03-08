@@ -13,6 +13,7 @@ try:
 except getopt.GetoptError as err:
     print(err)
     sys.exit(2)
+repetition = 1
 
 # Recuperer valeur des arguments
 for o, a in opts:
