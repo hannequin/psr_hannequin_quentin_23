@@ -43,3 +43,8 @@ with open(fichier, "a") as f:
         f.write(f"{message}\n")
     f.write(f"\n{message_fin}")
     print(f"Les arguments ont été enregistrés dans le fichier '{fichier}' avec succès.")
+
+
+""" Une erreure de convertion depuis le string empeche de choisir le nombre de répétition
+    Je n'ai pas trouver de solution
+"""
