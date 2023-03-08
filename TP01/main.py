@@ -33,7 +33,7 @@ for o, a in opts:
         assert False, "option fausse"
 
 # vérifier argument non null
-if message == 'vide' or message_fin == 'fin vide' or repetition == 1:
+if message == 'vide' or message_fin == 'fin vide':
     print("Erreur : Veuillez fournir tous les arguments nécessaires.")
     sys.exit(2)
 
