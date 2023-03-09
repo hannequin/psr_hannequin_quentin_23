@@ -10,9 +10,10 @@ parser = argparse.ArgumentParser(
                     )
 
 parser.add_argument("emoji", type=str)
-parser.add_argument('--nombre', type=int, default=5, choices=range(3, 15))
+parser.add_argument('--nombre', type=int, default=5, choices=range(3, 16))
 parser.add_argument('-v', '--verbose', action='store_true')
 
 args = parser.parse_args()
 for i in range(args.nombre):
     print(args.emoji, end='')
+    
