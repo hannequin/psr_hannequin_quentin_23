@@ -9,12 +9,10 @@ try:
     test_fichier = open(fichier)
 except IndexError:
     print('Entrer un nom de fichier')
-#except OSError:
-#    print('Nom non valide')
+except OSError:
+    print('Nom non valide')
 
-with open(fichier,"w" ) as f:
-    contenu = f.read()
-    f.write(f"{len(f.readline())}")
-    # contenu = f.readline
-    # for i in range(len(contenu)):
-    #     f.write(f"{i+1} {contenu}")
+with open(fichier,"r" ) as f:
+    contenu = f.readlines()
+    for i in range(len(contenu)):
+        print(f"Ligne n°{i+1}, contenu: {contenu[i]}")
