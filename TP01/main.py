@@ -46,6 +46,7 @@ with open(fichier, "a") as f:
     print(f"Les arguments ont été enregistrés dans le fichier '{fichier}' avec succès.")
 
 
-""" Une erreure de convertion depuis le string empeche de choisir le nombre de répétition
+""" 
+    Une erreure de convertion depuis le string empeche de choisir le nombre de répétition
     Je n'ai pas trouver de solution
 """
