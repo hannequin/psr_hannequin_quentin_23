@@ -35,6 +35,14 @@ Entrer les commandes.
 Version en cour de développement, v0.1
 
 
+## Futur features
+
+* echange chiffré
+* liaison avec annuaire
+* controle des commandes utilisable
+* creation de scenario qui execute une suite de commande
+
+
 ## Auteurs
 
 Quentin HANNEQUIN
