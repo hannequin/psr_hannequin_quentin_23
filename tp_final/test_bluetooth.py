@@ -28,7 +28,7 @@ if allowed_address in devices:
 
     username = input("Entrez votre nom d'utilisateur : ")
     password = input("Entrez votre mot de passe : ")
-    
+
     # Envoyer les données au serveur
     client_socket.sendall(username.encode())
     client_socket.sendall(password.encode())
